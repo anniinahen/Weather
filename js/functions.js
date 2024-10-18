@@ -1,4 +1,3 @@
-/* MUISTA OTTAA API AVAIN POIS ENNEN GITHUBIA!!!!*/
 
 const temp_span = document.querySelector('#temp')
 const speed_span = document.querySelector('#speed')
@@ -8,7 +7,7 @@ const icon_img = document.querySelector('img')
 
 const url = 'https://api.openweathermap.org/data/2.5/weather?'
 const icon_url = 'http://openweathermap.org/img/wn/'
-const api_key = '7e670b071a768d237a74cdd5c3d97479' // POISTA ENNEN GITHUBIA!!//
+const api_key = '' 
 
 const getLocation = () => {
     if (navigator.geolocation) {
